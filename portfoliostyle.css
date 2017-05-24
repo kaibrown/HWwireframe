@@ -1,0 +1,81 @@
+/*the part that says "title"*/
+header{
+	margin-top: 20px;
+}
+
+
+/*everything in the entire document*/
+body{
+	width: 960px;
+	background-color: #777;
+	text-align: center;
+	margin: auto;
+	font-family: Arial;
+	font-size: 20px;
+	}
+
+
+/*the top two areas "title" and "navigation", long and thin*/
+.top{
+	margin-bottom: 20px;
+	height: 95px;
+	}
+
+
+
+/*the two middles areas on the left and right*/
+.halfsize {
+	width: 450px;
+	height: 300px;
+	display: inline;
+	margin-bottom: 25px;
+}
+
+
+/*go over to the right*/
+.goover{
+	float: right;
+}
+
+
+/*go over there to the left*/
+.gothere{
+	float: left;
+}
+
+
+/*all sections need to be gray*/
+div, footer {
+	background-color: #ebebeb;
+}
+
+
+/*footer at the bottom*/
+footer{
+	clear: both;
+	margin-top: 25px;
+	height: 85px;
+}
+
+/*the dark area on the left side of the center sections..it contains two little divs*/
+.article{
+	background-color: #777;
+	height: 200px;
+	width: 300px;
+	margin: auto;
+}
+
+/*two little divs of stuff inside the article*/
+.stuff{
+	height: 50px;
+	width:200px;
+	background-color: #ebebeb;
+	display: block center;
+	margin: 25px auto;
+}
+
+/* */
+footer{
+	margin-top: 25px;
+}
+
