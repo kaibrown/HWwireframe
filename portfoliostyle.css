@@ -1,17 +1,19 @@
 /*the part that says "title"*/
 header{
 	margin-top: 20px;
+
 }
 
 
 /*everything in the entire document*/
-body{
+body {
 	width: 960px;
 	background-color: #777;
 	text-align: center;
 	margin: auto;
 	font-family: Arial;
 	font-size: 20px;
+	color: #808080;
 	}
 
 
@@ -25,7 +27,7 @@ body{
 
 /*the two middles areas on the left and right*/
 .halfsize {
-	width: 450px;
+	width: 471px;
 	height: 300px;
 	display: inline;
 	margin-bottom: 25px;
@@ -61,8 +63,9 @@ footer{
 .article{
 	background-color: #777;
 	height: 200px;
-	width: 300px;
-	margin: auto;
+	width: 414px;
+	margin: 54px auto;
+	color: #ebebeb;
 }
 
 /*two little divs of stuff inside the article*/
@@ -72,6 +75,7 @@ footer{
 	background-color: #ebebeb;
 	display: block center;
 	margin: 25px auto;
+	color: #777;
 }
 
 /* */
